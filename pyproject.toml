@@ -9,6 +9,8 @@ python = "^3.9"
 ipykernel = "^6.9.1"
 torch = "^1.10.2"
 numpy = "^1.22.2"
+transformers = {git = "https://github.com/huggingface/transformers"}
+transformers-interpret = {git = "https://github.com/cdpierse/transformers-interpret"}
 
 [tool.poetry.dev-dependencies]
 
